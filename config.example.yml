@@ -1,0 +1,14 @@
+# Your Twilio access info
+TWILIO_SID: abc123
+TWILIO_TOKEN: abc123
+# Comma-separated list of phone numbers for the "admins" who should be call to
+# buzz people up
+ADMINS: '+16045551234,+16045551235'
+# Your Twilio phone number
+SMS_FROM: '+16045553210'
+# Number of seconds to auto-unlock the door after receiving an SMS
+UNLOCK_TIMEOUT: 60
+# The digit that your entryphone uses to unlock the door
+BUZZ_DIGIT: 6
+# The DynamoDB table you want to use to store state
+DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}

@@ -1,0 +1,10 @@
+{
+  "name": "entryphone",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.218.1",
+    "twilio": "^3.14.0"
+  }
+}
